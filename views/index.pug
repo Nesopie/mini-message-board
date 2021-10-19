@@ -1,0 +1,18 @@
+extends layout
+
+block content
+    header
+        h1 #{title}
+    hr
+    //- button Post a new message
+    a(href=`http://localhost:${process.env.PORT || 3000}/new`)
+        button.postMessage Post a new message
+    br
+    bra
+    div.cardsContainer
+        each message, i in messages
+            div.cardContainer
+                div(class="cardItem userDisplay")= `${message.user} says:`
+                div(class="cardItem userTextDisplay")= message.text
+                hr.cardSeparation
+                div(class="cardItem relativeTime")= message.added

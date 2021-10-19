@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    header
+        h1 #{title}
+    hr
+    br
+    br
+    div.container
+        form(method="POST" action="/new" class="formContainer")
+            label(for="userText") Message
+                div
+                    input(type="text" placeholder="Enter your message!" id="userText" name="messageText" required)
+            label(for="userName") Username
+                div
+                    input(type="text" placeholder="Enter your username" id="userName" name="messageUser")
+            button(type="submit" class="postForm") POST

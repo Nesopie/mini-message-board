@@ -1,0 +1,102 @@
+body {
+    background-color: #15191b;
+    padding: 20px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #2a9dc3;
+}
+
+header {
+    text-align: center;
+}
+
+a {
+    width: 100%;
+    margin: 0 auto;
+    color: #00B7FF;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.postMessage {
+    font-size: 20px;
+    padding-left: 115px;
+    padding-right: 115px;
+    background-color: #5765f2;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.postMessage:hover {
+    cursor: pointer;
+}
+
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cardContainer {
+    background-color: #1c2123;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 400px;
+    border: 1px solid #2a9dc3;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.cardItem {
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    margin: 10px;
+}
+
+.relativeTime {
+    text-align: right;
+    font-size: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.formContainer {
+    background-color: #1c2123;
+    margin-top: 20px;
+    width: 400px;
+    border: 1px solid #2a9dc3;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+input {
+    width: 98%;
+    outline: none;
+    border-bottom: 2px solid #2a9dc3;
+    border-right: none;
+    color: white;
+}
+
+label,input {
+    font-size: 20px;
+    background-color: inherit;
+}
+
+.postForm {
+    width: 100%;
+    font-size: 17px;
+    background-color: #178de8;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.postForm:hover {
+    cursor: pointer;
+}
